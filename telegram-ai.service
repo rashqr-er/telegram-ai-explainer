@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram AI Explainer & Assistant Userbot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/telegram_ai
+ExecStart=%h/telegram_ai/start.sh
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

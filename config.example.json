@@ -1,0 +1,8 @@
+{
+  "api_id": "YOUR_TELEGRAM_API_ID",
+  "api_hash": "YOUR_TELEGRAM_API_HASH",
+  "gemini_api_key": "YOUR_GEMINI_API_KEY",
+  "gemini_model": "gemini-3.5-flash-lite",
+  "max_history_messages": 100,
+  "auto_reply_enabled": false
+}

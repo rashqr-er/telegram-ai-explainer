@@ -1,0 +1,28 @@
+# Sensitive credentials and sessions (NEVER COMMIT)
+config.json
+*.session
+*.session-journal
+telegram_login_qr.png
+.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
